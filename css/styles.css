@@ -1,0 +1,203 @@
+/***** dayNight toggle mode *****/
+
+#dayNight {
+    font-size: 2rem;
+    cursor: pointer;
+    background: #ff0;
+    padding: 0.8rem 1rem;
+    border: 1px solid #ff6a00;
+    border-radius: 50%;
+    animation: mybackground 3s infinite;
+}
+
+    @keyframes mybackground {
+        from {
+            background-color: #ff0;
+        }
+        to {
+            background-color: #ff7f50;
+        }
+    }
+
+    #dayNight .bi:nth-child(2) {
+        display: none;
+    }
+
+    #dayNight.night .bi:nth-child(1) {
+        display: none;
+    }
+
+    #dayNight.night .bi:nth-child(2) {
+        display: block;
+    }
+
+
+.companyName {
+    color: #cd5c5c;
+    font-weight: bold;
+}
+
+/***** bodyText container *****/
+
+.bodyText {
+    font: 400 24px/32px Google Sans,-apple-system,BlinkMacSystemFont,sans-serif;
+    letter-spacing: normal
+}
+
+.bodyText h2 {
+    font-weight: bold;
+}
+
+.bodyText p {
+    text-align: justify;
+}
+
+
+/***** bodyBox container *****/
+
+#box1 {
+    background-color: #fff;
+    color: #000;
+}
+    #box1.night {
+        background-color: #a3a1a1;
+        color: #fff;
+    }
+
+#box2 {
+    background-color: #ddf8b3;
+    color: #000;
+}
+    #box2.night {
+        background-color: #367c2b;
+        color: #fff;
+    }
+    #box2 li {
+        line-height: 3rem;
+    }
+    #box2 #researchBox {
+        font-size: 2.5rem;
+        padding-left: 3%;
+    }
+
+    #typedElement {
+        color: #dc143c;
+    }
+    #typedElement.night {
+        color: #ff0;
+    }
+
+/***** navBar container *****/
+
+.navbar-brand > span {
+    font-family: Rubik,sans-serif;
+    font-size: 2.5rem;
+}
+
+.menuLogo {
+    height: 80px;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #CCC;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #808080;
+    color: #fff;
+}
+
+@media screen and (min-width: 861px) and (max-width: 920px) {
+
+    #box2 #researchBox {
+        font-size: 1.8rem;
+        font-weight: bold;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        padding-left: 30%;
+    }
+
+    .navbar-brand > span {
+        font-size: 1.8rem;
+    }
+
+    .menuButton {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 860px)
+{
+
+    .bodyText {
+        font: 400 18px/28px Google Sans,-apple-system,BlinkMacSystemFont,sans-serif;
+    }
+
+        .bodyText h2 {
+            font-size: 1.2rem;
+        }    
+
+    #box2 li {
+        line-height: 1.8rem;
+    }
+    #box2 #researchBox {
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        padding-left: 30%;
+    }
+
+    .navbar-brand > span {
+        font-size: 1.2rem;
+    }
+
+    .menuButton {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px)
+{
+    .bodyText {
+        font: 400 14px/18px Google Sans,-apple-system,BlinkMacSystemFont,sans-serif;
+    }
+        .bodyText h2 {
+            font-size: 1.2rem;
+        }    
+
+    footer {
+        font-size: 0.7rem;
+    }
+
+    #box2 li {
+        line-height: 1.2rem;
+    }
+    #box2 #researchBox {
+        font-size: 1.4rem;
+        font-weight: bold;
+        padding-top: 1rem;
+        padding-bottom:2rem;
+    }
+
+
+    .navbar-brand > span {
+        display: none;
+    }
+
+    .menuLogo {
+        height: 50px;
+        padding-right: 4px;
+        margin-right: 4px;
+        border-right: 1px solid #ccc;
+    }
+
+    .menuButton {
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+
+}
