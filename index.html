@@ -80,6 +80,22 @@
         </div>
     </nav>
 
+    <div id="cookieNotice" class="bg-light border border-2 p-2 col-5 mx-auto">
+        <div id="closeIcon" style="display: none;">
+        </div>
+        <div class="title-wrap">
+            <h4>Cookie Consent</h4>
+        </div>
+        <div class="content-wrap">
+            <div class="msg-wrap">
+                <p>This website uses cookies or similar technologies, to enhance your browsing experience and provide personalized recommendations. By continuing to use our website, you agree to our  <a style="color:#115cfa;" href="./privacy.html">Privacy Policy</a></p>
+                <div class="btn-wrap">
+                    <button class="btn btn-primary" onclick="acceptCookieConsent();">Accept</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="box1" class="bodyText">
         <div class="container pt-3 pb-3">
             <h2>Welcome</h2>
@@ -110,26 +126,6 @@
         </div>
     </div>
 
-    <!--<div id="box2" class="bodyText pt-3 pb-1">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 text-nowrap d-flex align-items-center" style="font-size: 2.5rem;">
-                    we research&nbsp;
-                    <span id="typedElement" class="text-uppercase">industries</span>
-                </div>
-                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
-                    <h2>Quality Research and Quick Results Guranteed</h2>
-                    <ul>
-                        <li>Team led by Research Experts</li>
-                        <li>Streamlined Best in Class Research Process</li>
-                        <li>Adept in Statistical Tools and Techniques</li>
-                        <li>Network of Research Investigators across South India</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>-->
-
     <footer>
         <div class="container pt-4 pb-4">
             Copyright &copy; 2022-2023 <b>GoodHope Research Solutions</b>. All rights reserved.<br />
@@ -137,6 +133,7 @@
         </div>
     </footer>
 
+    <script src="./js/cookieConsent.js"></script>
     <script src="./js/scripts.js"></script>
 </body>
 </html>
