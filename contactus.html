@@ -105,60 +105,88 @@
         </div>
     </div>
 
-    <div id="box2" class="bodyText pt-3 pb-1">
-        <div class="container-fluid">
-            <div class="row">
-                <div id="researchBox" class="col-xl-5 col-lg-5 col-md-12 col-sm-12 d-flex text-nowrap align-items-center">
-                    we research&nbsp;<span id="typedElement" class="text-uppercase"></span>
-                </div>
-                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
-                    <h2>Quality Research and Quick Results Guranteed</h2>
-                    <ul>
-                        <li>Team led by Research Experts</li>
-                        <li>Streamlined Best in Class Research Process</li>
-                        <li>Adept in Statistical Tools and Techniques</li>
-                        <li>Network of Research Investigators across South India</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div id="box1" class="bodyText">
-        <div class="container pt-3 pb-3">
-            <h2>Our Services</h2>
+        <div class="container pt-3 pb-5">
+            <h2>Get in touch with us!</h2>
+            <p>Complete the form to get in touch with the Sales Team of <span class="companyName">GoodHope Research Solutions</span>. We would be more than happy to provide you all the help in conducting market research for your products and services.</p>
 
-            We conduct in-depth market research to help our clients take informed decisions on the right strategies and approaches for their business growth.
+            <form id="Form1" name="Form1" method="GET" class="needs-validation" novalidate>
+                <div class="mb-3">
+                    <label for="tbName" class="form-label fw-bold">Name</label>
+                    <div class="col-7">
+                        <input id="tbName" name="tbName" type="text"
+                               class="form-control" required="required"
+                               maxlength="50" placeholder="enter name" />
+                        <div class="invalid-feedback">
+                            Please enter your name.
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="tbCoName" class="form-label fw-bold">Company Name</label>
+                    <input id="tbCoName" name="tbCoName" type="text"
+                           class="form-control" required="required"
+                           maxlength="100" />
+                    <div class="invalid-feedback">
+                        Please enter your Company name.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="tbJobTitle" class="form-label fw-bold">Job Title</label>
+                    <div class="col-8">
+                        <input id="tbJobTitle" name="tbJobTitle" type="text"
+                               class="form-control col-4" required="required"
+                               maxlength="60" placeholder="job title / designation" />
+                        <div class="invalid-feedback">
+                            Please enter your Job Title / Designation.
+                        </div>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="tbEmail" class="form-label fw-bold">Email</label>
+                    <input id="tbEmail" name="tbEmail" type="email"
+                           class="form-control" required="required"
+                           maxlength="60" />
+                    <div class="invalid-feedback">
+                        Please enter a valid email address.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="tbPhone" class="form-label fw-bold">Phone</label>
+                    <div class="col-4">
+                        <input id="tbPhone" name="tbPhone" type="text"
+                               class="form-control" required="required"
+                               maxlength="15" minlength="10" />
+                        <div class="invalid-feedback">
+                            Please enter a valid phone number.
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="tbRemarks" class="form-label">Remarks</label>
+                    <div class="text-muted fst-italic small">It would greatly help us provide a quicker response if you will provide a few lines detailing what exactly you are seeking.</div>
+                    <textarea id="tbRemarks" name="tbRemarks"
+                              class="form-control" rows="7"></textarea>
+                </div>
+                <hr />
+                <p class="small text-muted">
+                    By providing this information, you agree that we may process your contact information
+                    in accordance with our <a href="./privacy.html">Privacy Policy</a>
+                </p>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-success btn-lg float-end">
+                        <i class="bi bi-check2-circle"></i>
+                        Submit Enquiry
+                    </button>
+                </div>
+            </form>
 
-            <div class="row g-3 mt-2 mb-4">
-                <div class="offset-1 col-10">
-                    <div class="p-3 border rounded" style="background-color: #ffc09f">
-                        <div class="serviceBoxTitle">Quantitative Research</div>
-                        <div class="serviceBodyText">We query a wide section of the population using surveys, polls, questionnaires, etc. to derive a well-analyzed and statistical reports for you.</div>
-                    </div>
-                </div>
-                <div class="offset-1 col-10">
-                    <div class="p-3 border rounded" style="background-color: #ffee93">
-                        <div class="serviceBoxTitle">Telephonic Interviews</div>
-                        <div class="serviceBodyText">We organize interviews over the phone targetting members of the population selected specifically by the demographics desired by you, to understand their behaviour towards your products and services.</div>
-                    </div>
-                </div>
-                <div class="offset-1 col-10">
-                    <div class="p-3 border rounded" style="background-color: #a0ced9">
-                        <div class="serviceBoxTitle">Face-to-Face Interviews</div>
-                        <div class="serviceBodyText">We organize face-to-face interviews to gain a complete understanding of how your target audience feels, thinks, and acts about your products and services in the marketplace.</div>
-                    </div>
-                </div>
-                <div class="offset-1 col-10">
-                    <div class="p-3 border rounded" style="background-color: #adf7b6">
-                        <div class="serviceBoxTitle">Qualitative Research</div>
-                        <div class="serviceBodyText">We select a select group of people, and then provide a group discussion platform for you to interact with them, where you can ask various questions to gain a deeper understanding of how they think and operate in the market.</div>
-                    </div>
-                </div>
-            </div>
+            <br />
         </div>
     </div>
-
 
     <footer>
         <div class="container pt-4 pb-4">
@@ -169,5 +197,6 @@
 
     <script src="./js/cookieConsent.js"></script>
     <script src="./js/scripts.js"></script>
+    <script src="./js/validate.js"></script>
 </body>
 </html>

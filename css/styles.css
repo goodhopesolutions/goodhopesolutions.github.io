@@ -109,7 +109,6 @@
         color: #ff0;
     }
 
-
 .serviceBoxTitle {
     border-bottom: 3px solid #fff;
     font-weight: bold;
@@ -138,6 +137,17 @@
     .serviceBodyText.night {
         color: #000;
     }
+
+
+/***** button glyph icon *****/
+
+button i.bi {
+    vertical-align: middle;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 2px groove;
+}
+
 
 /***** navBar container *****/
 
@@ -209,7 +219,7 @@ footer a {
 
         .bodyText h2 {
             font-size: 1.2rem;
-        }    
+        }
 
     #box2 li {
         line-height: 1.8rem;
@@ -239,7 +249,7 @@ footer a {
     }
         .bodyText h2 {
             font-size: 1.2rem;
-        }    
+        }
 
     footer {
         font-size: 0.7rem;
