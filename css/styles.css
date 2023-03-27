@@ -52,6 +52,19 @@
     text-align: justify;
 }
 
+/***** heroBox container on Home Page *****/
+#heroBox {
+    height: 80vh;
+    background-color: #f8f9fa;
+    background-image: url('../images/hero-bg.png');
+    background-size: contain;
+    resize: both;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+    #heroBox.night {
+        background-color: #c6c7c8;
+    }
 
 /***** bodyBox container *****/
 
@@ -80,11 +93,50 @@
         padding-left: 3%;
     }
 
-    #typedElement {
-        color: #dc143c;
+#box3 {
+    background-color: #fff;
+    color: #000;
+}
+    #box3.night {
+        background-color: #a3a1a1;
+        color: #fff;
     }
+
+#typedElement {
+    color: #dc143c;
+}
     #typedElement.night {
         color: #ff0;
+    }
+
+
+.serviceBoxTitle {
+    border-bottom: 3px solid #fff;
+    font-weight: bold;
+    padding-bottom: 4px;
+    color: #000;
+}
+    .serviceBoxTitle.night {
+        color: #000;
+    }
+
+.serviceBoxText {
+    padding-top: 4px;
+    font-size: 1.2rem;
+    color: #000;
+}
+    .serviceBoxText.night {
+        color: #000;
+    }
+
+.serviceBodyText {
+    padding-top: 4px;
+    font: 400 24px/32px Google Sans,-apple-system,BlinkMacSystemFont,sans-serif;
+    letter-spacing: normal;
+    color: #000;
+}
+    .serviceBodyText.night {
+        color: #000;
     }
 
 /***** navBar container *****/

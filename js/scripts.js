@@ -3,13 +3,21 @@
  *****/
 let dayNightElements = [
     document.querySelector('#dayNight'),
+    document.querySelector('#heroBox'),
     document.querySelector('#box1'),
     document.querySelector('#box2'),
-    document.querySelector('#typedElement')
+    document.querySelector('#box3'),
+    document.querySelector('#typedElement'),
+    document.querySelector('.serviceBoxTitle'),
+    document.querySelector('.serviceBoxText'),
+    document.querySelector('.serviceBodyText')
 ];
 dayNight.onclick = function () {
     dayNightElements.forEach(item => {
-        item.classList.toggle('night');
+        // check if item is there in the current page's DOM
+        if (item != undefined) {
+            item.classList.toggle('night');
+        }
     });
 }
 

@@ -42,10 +42,6 @@ function getCookie(cname) {
 function acceptCookieConsent() {
     deleteCookie('user_cookie_consent');
     setCookie('user_cookie_consent', 1, 30);
-
-    let cookie_consent = getCookie("user_cookie_consent");
-    console.log(cookie_consent);
-
     document.getElementById("cookieNotice").style.display = "none";
 }
 
